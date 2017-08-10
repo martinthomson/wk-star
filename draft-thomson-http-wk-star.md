@@ -65,9 +65,9 @@ to an OPTIONS request to "https://example.com".
 
 As with any other well-known resource, the intent of this resource is to
 provide information that applies to the entire server.  As such, the security
-considerations of {{!RFC5785}} apply.  This concern is mitigated by the
-inherent limitations of a resource that purports to speak for the entire server
-(see Section 4.3.7 of {{!RFC7231}}).
+considerations of {{!RFC5785}} apply.  Concerns about authority are mitigated
+by the inherent limitations of a resource that purports to speak for the entire
+server (see Section 4.3.7 of {{!RFC7231}} for details).
 
 
 # IANA Considerations
@@ -77,12 +77,15 @@ established in RFC 5785 {{!WELL-KNOWN}}.
 
 URI Suffix:
 : star
+
 Change Controller:
 : IETF
+
 Reference:
 : This document
+
 Related Information:
-: An equivalent request target to the asterisk-form {{!HTTP}}.
+: HTTP only.  An equivalent request target to the asterisk-form {{!HTTP}}.
 
 
 --- back
