@@ -4,8 +4,8 @@
 
 HTTPBIS                                                       M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Standards Track                         August 09, 2017
-Expires: February 10, 2018
+Intended status: Standards Track                         August 10, 2017
+Expires: February 11, 2018
 
 
                 The 'star' Well-Known Resource for HTTP
@@ -32,7 +32,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on February 10, 2018.
+   This Internet-Draft will expire on February 11, 2018.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Thomson                 Expires February 10, 2018               [Page 1]
+Thomson                 Expires February 11, 2018               [Page 1]
 
 Internet-Draft                     WK*                       August 2017
 
@@ -97,30 +97,36 @@ Internet-Draft                     WK*                       August 2017
 
    As with any other well-known resource, the intent of this resource is
    to provide information that applies to the entire server.  As such,
-   the security considerations of [RFC5785] apply.  This concern is
-   mitigated by the inherent limitations of a resource that purports to
-   speak for the entire server (see Section 4.3.7 of [RFC7231]).
+   the security considerations of [RFC5785] apply.  Concerns about
+   authority are mitigated by the inherent limitations of a resource
+   that purports to speak for the entire server (see Section 4.3.7 of
+   [RFC7231] for details).
+
+
+
+
+
+
+
+
+Thomson                 Expires February 11, 2018               [Page 2]
+
+Internet-Draft                     WK*                       August 2017
+
 
 4.  IANA Considerations
 
    IANA will register the "star" well-known resource in the "Well-Known
    URIs" established in RFC 5785 [WELL-KNOWN].
 
+   URI Suffix:  star
 
+   Change Controller:  IETF
 
+   Reference:  This document
 
-Thomson                 Expires February 10, 2018               [Page 2]
-
-Internet-Draft                     WK*                       August 2017
-
-
-   URI Suffix:  star Change Controller:
-
-      IETF Reference:
-
-      This document Related Information:
-
-      An equivalent request target to the asterisk-form [HTTP].
+   Related Information:  HTTP only.  An equivalent request target to the
+      asterisk-form [HTTP].
 
 5.  Normative References
 
@@ -159,10 +165,4 @@ Author's Address
 
 
 
-
-
-
-
-
-
-Thomson                 Expires February 10, 2018               [Page 3]
+Thomson                 Expires February 11, 2018               [Page 3]
